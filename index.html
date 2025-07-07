@@ -22,7 +22,7 @@
     <source src="music/music.mp3" type="audio/mpeg">
   </audio>
   
-   <div id="wrapper">
+ <div id="wrapper">
    <div class="content">
             <div class="left">
                 <div class="title">
@@ -266,17 +266,6 @@
         $(".letter__border").slideUp();
     })
 </script>
-<script>
-  const startup = document.getElementById("startup");
-  const wrapper = document.getElementById("wrapper");
-  const music = document.getElementById("bgmusic");
 
-  startup.addEventListener("click", function () {
-    startup.style.display = "none";      // 🎁 Gift screen chhupao
-    wrapper.style.display = "block";     // 🎉 Main content dikhao
-    music.play();                         // 🎵 Music chalu (loop me)
-  });
-
-</script>
 
 </html>
