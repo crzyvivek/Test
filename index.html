@@ -179,20 +179,7 @@
         console.error("🚫 Music failed to play:", err);
       }
     });
-  const startup = document.getElementById("startup");
-    const wrapper = document.getElementById("wrapper");
-    const music = document.getElementById("bgmusic");
-
-    startup.addEventListener("click", async function () {
-      startup.style.display = "none";
-      wrapper.style.display = "block";
-      try {
-        await music.play();
-        console.log("Music playing ✅");
-      } catch (err) {
-        console.error("Music error ❌", err);
-      }
-    });
+  
     let datetxt = "17 April 2023";
     let datatxtletter = "My sweet little angel, you are so special to all of us. Every day with you is a gift, and I thank God for sending you to our lives. I wish you lots of love, hugs, laughter, and fun as you grow. May your days be full of smiles and joy. We will always be with you, celebrating each birthday with love. Happy 2nd birthday, my shining star! 💖💕";
     let titleLetter = "To you";
